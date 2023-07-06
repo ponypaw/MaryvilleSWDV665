@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Groceries List</title>
+  </head>
+  <body>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>In Stock</th>
+            </tr>
+        </thead>
+        <tbody id = "groceriesList">
+        </tbody>
+    </table>
+    <script type='text/javascript' src="groceries.js"></script>
+    <!-- <script>
+      console.log("Groceries html is loading... ");
+
+      var Grocery = /** @class */ (function () {
+          function Grocery(name, price, inStock, sold) {
+              this.name = name;
+              this.price = price;
+              this.inStock = inStock;
+              this.sold = sold;
+          }
+          return Grocery;
+      }());
+
+      var milk = new Grocery("Martha's Milk", 2.87, 10, 7);
+      var bread = new Grocery("Bert's Bread", 1.53, 5, 19);
+      var eggs = new Grocery("Edith's Eggs", 1.98, 12, 48);
+
+      var groceries = [];
+
+      groceries.push(milk);
+      groceries.push(bread);
+      groceries.push(eggs);
+
+
+      console.log("Groceries is a type " + typeof groceries);
+      console.log("Groceries length is " + groceries.length);
+
+      let table = document.getElementById('groceriesList');
+
+      console.log("Table is a type " + table);
+
+      for (i = 0; i < groceries.length; ++i) {
+        var row = document.createElement("tr");
+
+        let c1 = document.createElement("td");
+        let c2 = document.createElement("td")
+        let c3 = document.createElement("td")
+
+        c1.innerText = groceries[i].name;
+        c2.innerText = groceries[i].price;
+        c3.innerText = groceries[i].inStock;
+
+        row.appendChild(c1);
+        row.appendChild(c2);
+        row.appendChild(c3);
+
+        console.log("Row is " + row);
+
+        table.appendChild(row);
+      }
+  </script> -->
+
+    
+  </body>
+</html>
